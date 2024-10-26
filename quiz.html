@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Awareness Quiz</h1>
+    </header>
+
+    <main>
+        <!-- Quiz Container -->
+        <section id="quiz-container">
+            <div id="question-container">
+                <h2 id="question">Question will appear here</h2>
+                <div id="options">
+                    <label>
+                        <input type="radio" name="option" class="option" value="1">
+                        <span class="option-text">Option 1</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" class="option" value="2">
+                        <span class="option-text">Option 2</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" class="option" value="3">
+                        <span class="option-text">Option 3</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" class="option" value="4">
+                        <span class="option-text">Option 4</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div id="navigation-buttons">
+                <button id="prev" class="btn">Previous</button>
+                <button id="next" class="btn">Next</button>
+                <button id="submit" class="btn">Submit</button>
+            </div>
+        </section>
+
+        <!-- Quiz Result Section -->
+        <section id="result-container" style="display:none;">
+            <h2>Quiz Completed!</h2>
+            <p>Your Score: <span id="score"></span></p>
+            <button id="retry" class="btn">Try Again</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mental Health Quiz. All rights reserved.</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
