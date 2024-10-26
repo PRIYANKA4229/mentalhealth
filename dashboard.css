@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background for the dashboard */
+    color: #333; /* Dark gray text color for readability */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #5cb85c; /* Green background */
+    color: white;
+    padding: 20px 0;
+    text-align: center; /* Center content */
+}
+
+header h1 {
+    margin: 10px 0; /* Margin for spacing */
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px; /* Spacing above navigation */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center navigation items */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 15px; /* Padding for better click area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+nav ul li a:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Section Styles */
+.section {
+    background: white; /* White background for sections */
+    margin: 20px 0; /* Space between sections */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.section h2 {
+    color: #5cb85c; /* Green color for section titles */
+}
+
+.section p {
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #5cb85c; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow padding */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+form input,
+form textarea {
+    margin: 10px 0; /* Spacing for form fields */
+    padding: 10px; /* Padding inside form fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+form button {
+    background-color: #5cb85c; /* Green button for form submission */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+form button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Spacing above footer */
+    padding: 10px 0; /* Padding for footer */
+    background-color:pink; /* Dark gray background */
+    color: white; /* White text color */
+}
